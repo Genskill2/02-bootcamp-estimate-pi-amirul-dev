@@ -2,6 +2,7 @@ import math
 import unittest
 import random
 
+
 def wallis(n):
 	a= 1
 	while(n):
@@ -23,6 +24,7 @@ def monte_carlo(n):
 	pi = 4*(circle/(circle+sqr))
 	return pi
 		
+
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
         for i in range(0, 5):
